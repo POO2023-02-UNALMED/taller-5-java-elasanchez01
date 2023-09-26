@@ -5,7 +5,7 @@ public class Ave extends Animal{
   private static ArrayList<Ave> listado = new ArrayList<>();
   private String colorPlumas;
   public static int halcones;
-  public statin int aguilas;
+  public static int aguilas;
 
   public Ave() {
     this(null, 0, null, null, null);
