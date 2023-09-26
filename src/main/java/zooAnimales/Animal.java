@@ -10,7 +10,7 @@ public class Animal {
   private Zona zona;
 
   public Animal(){
-    this(null, 0, null, null)
+    this(null, 0, null, null);
   }
 
   public Animal(String nombre, int edad, String habitad, String genero){
