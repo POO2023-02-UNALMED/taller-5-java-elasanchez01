@@ -12,7 +12,7 @@ public class Pez extends Animal{
     this(null, 0, null, null, null, 0);
   }
 
-  public Pez(String nombre, int edad, String habitat, String genero, String colorEscamas, String cantidadAletas){
+  public Pez(String nombre, int edad, String habitat, String genero, String colorEscamas, int cantidadAletas){
     super(nombre, edad, habitat, genero);
     this.colorEscamas = colorEscamas;
     this.cantidadAletas = cantidadAletas;
