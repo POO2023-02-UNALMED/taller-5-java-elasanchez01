@@ -9,7 +9,7 @@ public class Zona {
 
   public Zona(String nombre, Zoologico zoo){
     this.nombre = nombre;
-    this.zoo = zoo
+    this.zoo = zoo;
   }
 
 }
