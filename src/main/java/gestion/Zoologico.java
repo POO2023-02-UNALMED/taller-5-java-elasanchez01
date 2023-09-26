@@ -15,6 +15,27 @@ public class Zoologico {
     this.ubicacion = ubicacion;
   }
 
+  public void setNombre(String nombre) {
+		this.nombre=nombre;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+     
+	public void setUbicacion(String ubicacion) {
+		this.ubicacion=ubicacion;
+	}
+	public String getUbicacion() {
+		return ubicacion;
+	}
+	
+	public void setZonas(ArrayList<Zona> zonas) {
+		this.zonas=zonas;
+	}
+	public ArrayList<Zona> getZona() {
+		return zonas;
+	}
+
   public void agregarZonas(Zona zona) {
     zonas.add(zona);
   }
