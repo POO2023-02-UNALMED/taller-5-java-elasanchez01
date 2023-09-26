@@ -21,4 +21,19 @@ public class Animal {
     this.zona = null;
     totalAnimales++;
   }
+  
+  public static void setTotalAnimales(int totalAnimales){
+   Animal.totalAnimales = totalAnimales;
+ }
+
+  public static void getTotalAnimales(){
+    return totalAnimales;
+  }
+  public static String totalPorTipo() {
+    return "Mamiferos: "+Mamifero.getListado().size()+"\n"+
+      "Aves: "+Ave.getListado().size()+"\n"+
+      "Reptiles: "+Reptil.getListado().size()+"\n"+
+      "Peces: "+Pez.getListado().size()+"\n"+
+      "Anfibios: "+Anfibio.getListado().size();
+  }
 }
