@@ -15,5 +15,7 @@ public class Zona {
     this.nombre = nombre;
     this.zoo = zoo;
   }
-
+  public void agregarAnimales(Animal animal){
+    animales.add(animal);
+  }
 }
